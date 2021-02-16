@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+$mainColor: #1e4e76;
+$sconedColor: #fff;
+$thColor: #212121;
+
+*{
+  position: relative;    
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  outline: none !important;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: #212121;
+  color: $sconedColor;
+  overflow-x: hidden;
+}

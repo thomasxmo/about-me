@@ -1,20 +1,20 @@
 <template>
-  <div class="about">
-    <AppHeader name="About"/>
-    <AppAbout />
+  <div class="skills">
+    <AppHeader name="Skills"/>
+    <AppSkills />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import AppHeader from '@/components/app/AppHeader.vue'
-import AppAbout from '@/components/about/AppAbout.vue'
+import AppSkills from '@/components/Skills/AppSkills.vue'
 
 export default {
-  name: "about",
+  name: "skills",
   components: {
     AppHeader,
-    AppAbout
+    AppSkills
   }
 };
 </script>
